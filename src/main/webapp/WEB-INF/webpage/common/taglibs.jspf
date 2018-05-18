@@ -1,0 +1,27 @@
+<%--jstl标签--%>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
+<%@taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+<%--spring标签--%>
+<%@taglib prefix="spring" uri="http://www.springframework.org/tags"%>
+<%--shiro标签--%>
+<%@taglib prefix="shiro" uri="http://shiro.apache.org/tags"%>
+
+<%--自定义标签--%>
+<%@taglib prefix="fns" uri="/WEB-INF/tlds/jeeweb-functions.tld"%>
+<%@taglib prefix="form" uri="/WEB-INF/tlds/jeeweb-form.tld"%>
+<%@taglib prefix="grid" uri="/WEB-INF/tlds/jeeweb-grid.tld"%>
+<%@taglib prefix="html" uri="/WEB-INF/tlds/jeeweb-html.tld"%>
+<%@taglib prefix="view" uri="/WEB-INF/tlds/jeeweb-view.tld"%>
+
+<%--使用jstl的c:set标签，读properties文件，把值赋值给变量，在页面中可以直接使用${ctx} ${staticPath}直接使用，
+一般用在设置全局变量，整个站点的页面都可能使用--%>
+<c:set var="ctx" value="${pageContext.request.contextPath}" />
+<c:set var="adminPath" value="${pageContext.request.contextPath}${fns:getAdminUrlPrefix()}" />
+<c:set var="appPath" value="${pageContext.request.contextPath}"/>
+<c:set var="staticPath" value="${pageContext.request.contextPath}/static"/>
+
+<%--使用spring:message标签，结合ResourceBundleMessageSource，在网页上显示 properties 的数据，一般用在需要国际化的数据 --%>
+<spring:message code="platform.name"  var="platformName"/>
+<spring:message code="platform.copyright"  var="platformCopyright"/>
+<spring:message code="platform.version"  var="platformVersion"/>
