@@ -41,8 +41,9 @@ public class CommonServiceImpl<M extends BaseMapper<T>, T>
 
 	@Override
 	public Page<T> list(Queryable queryable, Wrapper<T> wrapper) {
-		//多条件查询
+
 		QueryToWrapper<T> queryToWrapper = new QueryToWrapper<T>();
+		//多条件查询
 		queryToWrapper.parseCondition(wrapper, queryable);
 		//排序
 		queryToWrapper.parseSort(wrapper, queryable);
@@ -52,6 +53,22 @@ public class CommonServiceImpl<M extends BaseMapper<T>, T>
 		com.baomidou.mybatisplus.plugins.Page<T> content = selectPage(page, wrapper);
 		//返回一PageImpl对象
 		return new PageImpl<T>(content.getRecords(), queryable.getPageable(), content.getTotal());
+	}
+
+	@Override
+	public com.baomidou.mybatisplus.plugins.Page<T> myList(Queryable queryable, Wrapper<T> wrapper)
+	{
+		QueryToWrapper<T> queryToWrapper = new QueryToWrapper<T>();
+		//多条件查询
+		queryToWrapper.parseCondition(wrapper, queryable);
+		//排序
+		queryToWrapper.parseSort(wrapper, queryable);
+		//分页
+		Pageable pageable = queryable.getPageable();
+		com.baomidou.mybatisplus.plugins.Page<T> page = new com.baomidou.mybatisplus.plugins.Page<T>(pageable.getPageNumber(), pageable.getPageSize());
+		com.baomidou.mybatisplus.plugins.Page<T> content = selectPage(page, wrapper);
+		//返回一PageImpl对象
+		return content;
 	}
 
 	@Override

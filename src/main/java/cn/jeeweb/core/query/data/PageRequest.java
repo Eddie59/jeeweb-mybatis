@@ -13,51 +13,32 @@ public class PageRequest implements Pageable, Serializable {
 
 	private static final long serialVersionUID = 8280485938848398236L;
 
+	/**
+	 * 当前第几页
+	 */
 	private final int page;
+	/**
+	 * 总页数
+	 */
 	private final int size;
+	/**
+	 * 排序对象
+	 */
 	private final Sort sort;
 
-	/**
-	 * Creates a new {@link PageRequest}. Pages are zero indexed, thus providing
-	 * 0 for {@code page} will return the first page.
-	 * 
-	 * @param size
-	 * @param page
-	 */
 	public PageRequest(int page, int size) {
 		this(page, size, null);
 	}
-
-	/**
-	 * Creates a new {@link PageRequest} with sort parameters applied.
-	 * 
-	 * @param page
-	 * @param size
-	 * @param direction
-	 * @param properties
-	 */
 	public PageRequest(int page, int size, Direction direction, String... properties) {
 		this(page, size, new Sort(direction, properties));
 	}
-
-	/**
-	 * Creates a new {@link PageRequest} with sort parameters applied.
-	 * 
-	 * @param page
-	 * @param size
-	 * @param sort
-	 *            can be {@literal null}.
-	 */
 	public PageRequest(int page, int size, Sort sort) {
-
 		if (page < 0) {
 			throw new IllegalArgumentException("Page index must not be less than zero!");
 		}
-
 		if (size < 0) {
 			throw new IllegalArgumentException("Page size must not be less than zero!");
 		}
-
 		this.page = page;
 		this.size = size;
 		this.sort = sort;

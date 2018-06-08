@@ -13,12 +13,11 @@ import java.util.Map;
 public abstract class BaseMethodArgumentResolver implements HandlerMethodArgumentResolver {
 
 	/**
-	 * 获取指定前缀的参数：包括uri varaibles 和 parameters
 	 *
-	 * @param namePrefix
-	 * @param request
-	 * @return
-	 * @subPrefix 是否截取掉namePrefix的前缀
+	 * @param namePrefix 请求参数的前缀
+	 * @param request 当前请求对象
+	 * @param subPrefix 是否有分割符
+	 * @return 过滤请求的所有参数，如果参数有前缀（查询参数），把参数前缀去掉；所有参数存放到Map中返回
 	 */
 	protected Map<String, String[]> getPrefixParameterMap(String namePrefix, NativeWebRequest request,
 			boolean subPrefix) {
@@ -77,10 +76,19 @@ public abstract class BaseMethodArgumentResolver implements HandlerMethodArgumen
 		return ch != '.' && ch != '_' && !(ch >= '0' && ch <= '9');
 	}
 
-	@SuppressWarnings("unchecked")
-	protected final Map<String, String> getUriTemplateVariables(NativeWebRequest request) {
+
+/**
+ *
+ * @param request 请求对象
+ * @return 如果请求中有路径参数，获取路径参数并返回
+ */
+@SuppressWarnings("unchecked")
+	public final Map<String, String> getUriTemplateVariables(NativeWebRequest request) {
 		Map<String, String> variables = (Map<String, String>) request.getAttribute(HandlerMapping.URI_TEMPLATE_VARIABLES_ATTRIBUTE, RequestAttributes.SCOPE_REQUEST);
-		return (variables != null) ? variables : Collections.<String, String> emptyMap();
+		if (variables == null) {
+			return Collections.<String, String>emptyMap();
+		}
+		return variables;
 	}
 
 }

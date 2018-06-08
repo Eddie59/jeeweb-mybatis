@@ -78,8 +78,7 @@ public class QueryToWrapper<T> {
 	 */
 	public void invokeWrapper(Wrapper<T> wrapper, Filter filter) {
 		try {
-			Method method = wrapper.getClass().getMethod(filter.getOperator().name(), String.class,
-					Object.class);
+			Method method = wrapper.getClass().getMethod(filter.getOperator().name(), String.class, Object.class);
 			method.invoke(wrapper, filter.getProperty(), filter.getValue());
 		} catch (Exception e) {
 			e.printStackTrace();

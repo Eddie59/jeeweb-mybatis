@@ -24,7 +24,6 @@ public class ComplexPropertyPreFilter implements PropertyPreFilter {
 	}
 
 	public ComplexPropertyPreFilter() {
-
 	}
 
 	public ComplexPropertyPreFilter(Map<Class<?>, Set<String>> includes) {

@@ -25,4 +25,6 @@ public interface ICommonService<T> extends IService<T> {
 	 List<T> listWithNoPage(Queryable queryable, Wrapper<T> wrapper);
 
 	 Boolean doValid(DuplicateValid duplicateValid, Wrapper<T> wrapper);
+
+	com.baomidou.mybatisplus.plugins.Page myList(Queryable queryable, Wrapper<T> wrapper);
 }

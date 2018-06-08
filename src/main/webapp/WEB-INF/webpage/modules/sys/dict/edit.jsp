@@ -4,8 +4,8 @@
 <html>
 <head>
     <title><spring:message code="sys.dict.edittitle" /></title>
-    <meta name="decorator" content="form"/> 
-    
+    <meta name="decorator" content="form"/>
+
 </head>
 
 <body class="white-bg"  formid="dictForm">
@@ -36,7 +36,9 @@
 		             <label class="Validform_checktip"></label>
 		         </td>
 		         <td  class="width-15 active text-right">	<label><font color="red">*</font>备注:</label></td>
-		         <td class="width-35" colspan="3" ><form:textarea path="remarks" htmlEscape="false" rows="3" maxlength="200" class="form-control "/></td>
+		         <td class="width-35" colspan="3" >
+					 <form:textarea path="remarks" htmlEscape="false" rows="3" maxlength="200" class="form-control "/>
+				 </td>
 		      </tr>
 		   </tbody>
 		</table>   

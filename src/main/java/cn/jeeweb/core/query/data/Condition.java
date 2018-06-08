@@ -10,6 +10,7 @@ import org.springframework.util.StringUtils;
 /**
  * 每一个Condition对象，包含一个List<Filter>，每一个Filter的实例代表一个过滤条件
  * 所以每一个Condition对象，代表多个查询条件
+ * 实现Iterable接口是为了使用for (Filter filter : conditions)
  */
 public class Condition implements Iterable<cn.jeeweb.core.query.data.Condition.Filter>, Serializable {
 
@@ -73,6 +74,7 @@ public class Condition implements Iterable<cn.jeeweb.core.query.data.Condition.F
 		return null;
 	}
 
+	@Override
 	public Iterator<Filter> iterator() {
 		return this.filters.iterator();
 	}
@@ -107,11 +109,24 @@ public class Condition implements Iterable<cn.jeeweb.core.query.data.Condition.F
 	}
 
 	public static enum Operator {
-		eq("等于", "="), ne("不等于", "!="), gt("大于", ">"), ge("大于等于", ">="), lt("小于", "<"), le("小于等于", "<="), isNull("空",
-				"is null"), isNotNull("非空", "is not null"), in("包含", "in"), notIn("不包含", "not in"), between(
-						"对应SQL的between子句", "between"), prefixLike("前缀模糊匹配", "like"), prefixNotLike("前缀模糊不匹配",
-								"not like"), suffixLike("后缀模糊匹配", "like"), suffixNotLike("后缀模糊不匹配", "not like"), like(
-										"模糊匹配", "like"), notLike("不匹配", "not like"), custom("自定义默认的", null);
+		eq("等于", "="),
+		ne("不等于", "!="),
+		gt("大于", ">"),
+		ge("大于等于", ">="),
+		lt("小于", "<"),
+		le("小于等于", "<="),
+		isNull("空", "is null"),
+		isNotNull("非空", "is not null"),
+		in("包含", "in"),
+		notIn("不包含", "not in"),
+		between("对应SQL的between子句", "between"),
+		prefixLike("前缀模糊匹配", "like"),
+		prefixNotLike("前缀模糊不匹配", "not like"),
+		suffixLike("后缀模糊匹配", "like"),
+		suffixNotLike("后缀模糊不匹配", "not like"),
+		like("模糊匹配", "like"),
+		notLike("不匹配", "not like"),
+		custom("自定义默认的", null);
 
 		private final String info;
 		private final String symbol;

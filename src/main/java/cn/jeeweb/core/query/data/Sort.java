@@ -9,6 +9,10 @@ import java.util.Locale;
 
 import org.springframework.util.StringUtils;
 
+/**
+ * 一页数据对应一个Sort对象，一个Sort对象有多个Order对象，每个Order对象包含列和升降序标志
+ * 满足多列排序
+ */
 public class Sort implements Iterable<cn.jeeweb.core.query.data.Sort.Order>, Serializable {
 
 	private static final long serialVersionUID = 5737186511678863905L;

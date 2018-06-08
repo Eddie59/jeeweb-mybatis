@@ -22,13 +22,16 @@ public class ReflectionUtils {
 	 * @return
 	 */
 	public static Class<?> getSuperClassGenricType(Class<?> clazz, int index) {
+
+		//获取clazz的直接父类
 		Type genType = clazz.getGenericSuperclass();
 
 		if (!(genType instanceof ParameterizedType)) {
 			logger.warn(clazz.getSimpleName() + "'s superclass not ParameterizedType");
 			return Object.class;
 		}
-
+//		(ParameterizedType) genType 把clazz的直接父类转化为ParameterizedType
+//		.getActualTypeArguments()通过ParameterizedType，获得超类的泛型参数的实际类型，返回的是一个数组，第一个为实际类型
 		Type[] params = ((ParameterizedType) genType).getActualTypeArguments();
 
 		if (index >= params.length || index < 0) {
@@ -41,7 +44,7 @@ public class ReflectionUtils {
 			logger.warn(clazz.getSimpleName() + " not set the actual class on superclass generic parameter");
 			return Object.class;
 		}
-
+//把Type类型转化为Class<?>返回
 		return (Class<?>) params[index];
 	}
 

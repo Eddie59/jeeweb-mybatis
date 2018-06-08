@@ -23,6 +23,7 @@ import cn.jeeweb.core.utils.ComplexPropertyPreFilter;
  *             http://www.cnblogs.com/dirgo/p/5178629.html Filter DEMO
  */
 public class QueryPropertyPreFilter implements PropertyPreFilterable {
+
 	//可查询字段，字符串
 	private String queryPropertyStr;
 	//可查询字段，Set集合

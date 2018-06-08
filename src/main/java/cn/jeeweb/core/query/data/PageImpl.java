@@ -10,20 +10,21 @@ public class PageImpl<T> implements Page<T>, Serializable {
 
 	private static final long serialVersionUID = 867755909294344406L;
 
+	/**
+	 * 当前页的数据
+	 */
 	private final List<T> content = new ArrayList<T>();
+	/**
+	 * PageImpl类的功能，主要是调用Pageable的功能实现的，
+	 * 所以这里引用Pageable
+	 */
 	private final Pageable pageable;
+	/**
+	 * 总数据数
+	 */
 	private final long total;
 
-	/**
-	 * Constructor of {@code PageImpl}.
-	 * 
-	 * @param content
-	 *            the content of this page, must not be {@literal null}.
-	 * @param pageable
-	 *            the paging information, can be {@literal null}.
-	 * @param total
-	 *            the total amount of items available
-	 */
+
 	public PageImpl(List<T> content, Pageable pageable, long total) {
 
 		if (null == content) {
@@ -35,31 +36,17 @@ public class PageImpl<T> implements Page<T>, Serializable {
 		this.pageable = pageable;
 	}
 
-	/**
-	 * Creates a new {@link PageImpl} with the given content. This will result
-	 * in the created {@link Page} being identical to the entire {@link List}.
-	 * 
-	 * @param content
-	 *            must not be {@literal null}.
-	 */
+
 	public PageImpl(List<T> content) {
 		this(content, null, null == content ? 0 : content.size());
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see org.springframework.data.domain.Page#getNumber()
-	 */
+
 	public int getNumber() {
 		return pageable == null ? 1 : pageable.getPageNumber();
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see org.springframework.data.domain.Page#getSize()
-	 */
+
 	public int getSize() {
 		return pageable == null ? 0 : pageable.getPageSize();
 	}

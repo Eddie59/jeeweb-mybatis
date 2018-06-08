@@ -52,9 +52,17 @@ public class QueryRequest implements Queryable {
 		this.condition = condition;
 	}
 
+	/**
+	 *
+	 * @param property 列名
+	 * @return 过滤值，就是用户输入的搜索条件
+	 */
 	@Override
 	public Object getValue(String property) {
 		if (this.getCondition() != null && this.getCondition().getFilterFor(property) != null) {
+			//this.getCondition()当前Queryrequest对象的Condition对象（一个Condition对象包含多个Filter对象）
+			//.getFilterFor(property)从众多Filter对象中，根据property列名获取一个Filter对象
+			//.getValue()获取这个Filter对象的value，其实就是过滤值，就是用户输入的搜索条件
 			return this.getCondition().getFilterFor(property).getValue();
 		}
 		return null;
@@ -65,36 +73,39 @@ public class QueryRequest implements Queryable {
 		Assert.notNull(property, "Condition key must not null");
 
 		String[] searchs = StringUtils.split(property, "||");
-
 		if (searchs.length == 0) {
 			throw new QueryException("Condition key format must be : property or property_op");
 		}
-
+		//列名
 		property = searchs[0];
-
+		//操作（枚举）
 		Operator operator = null;
+
 		if (searchs.length == 1) {
 			operator = Operator.eq;
-		} else {
-			try {
-				operator = Operator.fromString(searchs[1]);
-			} catch (IllegalArgumentException e) {
-				throw new InvlidOperatorException(property, searchs[1]);
-			}
+		}
+		else
+		{
+			//返回指定名称的操作枚举
+			operator = Operator.fromString(searchs[1]);
 		}
 
-		boolean allowBlankValue = Operator.isAllowBlankValue(operator);
 		boolean isValueBlank = (value == null);
 		isValueBlank = isValueBlank || (value instanceof String && StringUtils.isBlank((String) value));
 		isValueBlank = isValueBlank || (value instanceof List && ((List<?>) value).size() == 0);
-		// 过滤掉空值，即不参与查询
+		//is null  is not null
+		boolean allowBlankValue = Operator.isAllowBlankValue(operator);
+		// 过滤掉空格、空值，即不参与查询
 		if (!allowBlankValue && isValueBlank) {
 			return null;
 		}
+
+
 		if (condition == null) {
-			Filter filter = new Filter(operator, property, value);
+			Condition.Filter filter = new Condition.Filter(operator, property, value);
 			condition = new Condition(filter);
 		} else {
+			//添加搜索条件
 			condition.and(operator, property, value);
 		}
 		return this;

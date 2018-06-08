@@ -133,8 +133,7 @@ public abstract class BaseCRUDController<Entity extends AbstractEntity<ID>, ID e
 	 * @return: String
 	 */
 	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
-	public String _view(Model model, @PathVariable("id") ID id, HttpServletRequest request,
-			HttpServletResponse response) {
+	public String _view(Model model, @PathVariable("id") ID id, HttpServletRequest request, HttpServletResponse response) {
 		Entity entity = get(id);
 		showUpdate(entity, model, request, response);
 		model.addAttribute("data", entity);
@@ -155,6 +154,7 @@ public abstract class BaseCRUDController<Entity extends AbstractEntity<ID>, ID e
 
 	@RequestMapping(value = "create", method = RequestMethod.GET)
 	public String _showCreate(Model model, HttpServletRequest request, HttpServletResponse response) {
+
 		preEdit(newModel(), model, request, response);
 		String creteaView = showCreate(newModel(), model, request, response);
 		if (!model.containsAttribute("data")) {
@@ -310,5 +310,8 @@ public abstract class BaseCRUDController<Entity extends AbstractEntity<ID>, ID e
 		}
 		return validJson;
 	}
+
+
+
 
 }

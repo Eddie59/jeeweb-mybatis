@@ -70,6 +70,9 @@ public class QueryMethodArgumentResolver extends BaseMethodArgumentResolver {
 
 	@Override
 	public boolean supportsParameter(MethodParameter parameter) {
+		//MethodParameter封装了方法的参数
+		//MethodParameter里封装了Method和parameterIndex根据这两个可以确定一个参数,就可以获取参数的类型parameterType
+		//isAssignableFrom： parameter.getParameterType()是不是Queryable.class的子类或子接口
 		return Queryable.class.isAssignableFrom(parameter.getParameterType());
 	}
 
@@ -77,8 +80,8 @@ public class QueryMethodArgumentResolver extends BaseMethodArgumentResolver {
 	public Object resolveArgument(MethodParameter parameter, ModelAndViewContainer mavContainer,
 			NativeWebRequest webRequest, WebDataBinderFactory binderFactory) throws Exception {
 
-		String queryPrefix = getQueryPrefix(parameter);
-
+		String queryPrefix = getQualifierPrefix(parameter);
+		//查询参数
 		Map<String, String[]> queryeableMap = getPrefixParameterMap(queryPrefix, webRequest, true);
 
 		boolean hasCustomQueryFilter = queryeableMap.size() > 0;
@@ -141,13 +144,20 @@ public class QueryMethodArgumentResolver extends BaseMethodArgumentResolver {
 		return result.toArray(values);
 	}
 
-	private String getQueryPrefix(MethodParameter parameter) {
+	/**
+	 *
+	 * @param parameter 参数对象
+	 * @return 如果参数对象有Qualifier注解，获取值，加上“_query”返回
+	 */
+	public String getQualifierPrefix(MethodParameter parameter) {
 		Qualifier qualifier = parameter.getParameterAnnotation(Qualifier.class);
-
 		if (qualifier != null) {
-			return new StringBuilder(((Qualifier) qualifier).value()).append("_").append(prefix).toString();
+			StringBuilder sb = new StringBuilder();
+			sb.append(qualifier.value());
+			sb.append("_");
+			sb.append(prefix);
+			return sb.toString();
 		}
-
 		return prefix;
 	}
 
@@ -162,7 +172,6 @@ public class QueryMethodArgumentResolver extends BaseMethodArgumentResolver {
 	}
 
 	private Queryable getDefaultFromAnnotation(QueryableDefaults queryableDefaults) {
-
 		Queryable queryable = defaultQueryable(queryableDefaults);
 		if (queryable != null) {
 			return queryable;
@@ -171,11 +180,9 @@ public class QueryMethodArgumentResolver extends BaseMethodArgumentResolver {
 	}
 
 	private Queryable defaultQueryable(QueryableDefaults queryableDefaults) {
-
 		if (queryableDefaults == null) {
 			return null;
 		}
-
 		Queryable queryable = QueryRequest.newQueryable();
 		for (String queryParam : queryableDefaults.value()) {
 			String[] queryPair = queryParam.split("=");

@@ -6,114 +6,79 @@ import java.util.List;
 public interface Page<T> extends Iterable<T> {
 
 	/**
-	 * Returns the number of the current page. Is always non-negative and less
-	 * that {@code Page#getTotalPages()}.
-	 * 
-	 * @return the number of the current page
+	 * @return 当前第几页
 	 */
 	int getNumber();
 
 	/**
-	 * Returns the size of the page.
-	 * 
-	 * @return the size of the page
+	 * @return 每页数据量
 	 */
 	int getSize();
 
 	/**
-	 * Returns the number of total pages.
-	 * 
-	 * @return the number of toral pages
+	 * @return 总页数
 	 */
 	int getTotalPages();
 
 	/**
-	 * Returns the number of elements currently on this page.
-	 * 
-	 * @return the number of elements currently on this page
+	 * @return 当前页的数据序号
 	 */
 	int getNumberOfElements();
 
 	/**
-	 * Returns the total amount of elements.
-	 * 
-	 * @return the total amount of elements
+	 * @return 总数据数
 	 */
 	long getTotalElements();
 
 	/**
-	 * Returns if there is a previous page.
-	 * 
-	 * @return if there is a previous page
+	 * @return 是否有上一页
 	 */
 	boolean hasPreviousPage();
 
 	/**
-	 * Returns whether the current page is the first one.
-	 * 
-	 * @return
+	 * @return 是否是第一页
 	 */
 	boolean isFirstPage();
 
 	/**
-	 * Returns if there is a next page.
-	 * 
-	 * @return if there is a next page
+	 * @return 是否有下一页
 	 */
 	boolean hasNextPage();
 
 	/**
-	 * Returns whether the current page is the last one.
-	 * 
-	 * @return
+	 * @return 是否是最后一页
 	 */
 	boolean isLastPage();
 
 	/**
-	 * Returns the {@link Pageable} to request the next {@link Page}. Can be
-	 * {@literal null} in case the current {@link Page} is already the last one.
-	 * Clients should check {@link #hasNextPage()} before calling this method to
-	 * make sure they receive a non-{@literal null} value.
-	 * 
-	 * @return
+	 * @return 下一页
 	 */
 	Pageable nextPageable();
 
 	/**
-	 * Returns the {@link Pageable} to request the previous page. Can be
-	 * {@literal null} in case the current {@link Page} is already the first
-	 * one. Clients should check {@link #hasPreviousPage()} before calling this
-	 * method make sure receive a non-{@literal null} value.
-	 * 
-	 * @return
+	 * @return 上一页
 	 */
 	Pageable previousPageable();
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see java.lang.Iterable#iterator()
-	 */
+	@Override
 	Iterator<T> iterator();
 
+
 	/**
-	 * Returns the page content as {@link List}.
-	 * 
-	 * @return
+	 *
+	 * @return 当前页的数据集合
 	 */
 	List<T> getContent();
 
 	/**
-	 * Returns whether the {@link Page} has content at all.
-	 * 
-	 * @return
+	 *
+	 * @return 是否有数据
 	 */
 	boolean hasContent();
 
 	/**
-	 * Returns the sorting parameters for the page.
-	 * 
-	 * @return
+	 *
+	 * @return 当前页的排序对象
 	 */
 	Sort getSort();
 }

@@ -130,7 +130,8 @@
 		<property name="dataSource" ref="dataSource" />
 	</bean>
 	
-	<!-- 热加载 -->
+	<!-- 热加载
+	 不启用热加载时，每次修改xml文件就要重启服务，重新加载xml文件，热加载可以不重启服务-->
     <bean class="com.baomidou.mybatisplus.spring.MybatisMapperRefresh">
         <constructor-arg name="sqlSessionFactory" ref="sqlSessionFactory"/>
         <constructor-arg name="mapperLocations" value="classpath:/mappings/**/*.xml"/>
