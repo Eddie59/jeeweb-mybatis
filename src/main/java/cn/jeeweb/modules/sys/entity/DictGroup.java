@@ -5,7 +5,9 @@ import com.baomidou.mybatisplus.annotations.TableId;
 import com.baomidou.mybatisplus.annotations.TableName;
 import com.baomidou.mybatisplus.enums.IdType;
 import cn.jeeweb.core.common.entity.DataEntity;
+import org.hibernate.validator.constraints.Email;
 
+import javax.validation.constraints.NotNull;
 import java.lang.String;
 
 @TableName("sys_dict_group")
@@ -22,6 +24,8 @@ public class DictGroup extends DataEntity<String> {
 	@TableField(value = "remarks")
 	private String remarks;
 	/** 分组编码 */
+	@NotNull()
+	@Email
 	@TableField(value = "code")
 	private String code;
 

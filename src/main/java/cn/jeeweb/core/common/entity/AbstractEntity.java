@@ -18,16 +18,12 @@ public abstract class AbstractEntity<ID> extends BaseEntity {
 
 	public abstract void setId(ID id);
 
-	/*
-	 * (non-Javadoc)
-	 *
-	 * @see org.springframework.data.domain.Persistable#isNew()
-	 * 
-	 */
 	public boolean isNew() {
-
 		return null == getId();
 	}
+
+
+
 
 	/*
 	 * (non-Javadoc)

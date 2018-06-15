@@ -14,7 +14,8 @@ import cn.jeeweb.core.utils.ObjectUtils;
 
 @Transactional
 public class TreeCommonServiceImpl<M extends BaseTreeMapper<T>, T extends Serializable & TreeNode<ID>, ID extends Serializable>
-		extends CommonServiceImpl<M, T> implements ITreeCommonService<T, ID> {
+		extends CommonServiceImpl<M, T>
+		implements ITreeCommonService<T, ID> {
 
 	@Override
 	public T selectById(Serializable id) {

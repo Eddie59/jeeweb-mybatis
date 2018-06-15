@@ -23,8 +23,11 @@
 		         </td>
 		         <td  class="width-15 active text-right">	<label><font color="red">*</font>分组编码:</label></td>
 		         <td  class="width-35" >
-		             <form:input path="code" class="form-control"  htmlEscape="false"  datatype="/^[a-zA-Z]+$/" errormsg="分组编码必须为英文！"  nullmsg="请输入分组编码！"/>
-		             <label class="Validform_checktip"></label>
+		             <%--<form:input path="code" class="form-control"  htmlEscape="false"  datatype="/^[a-zA-Z]+$/" errormsg="分组编码必须为英文！"  nullmsg="请输入分组编码！"/>--%>
+						 <form:input path="code" class="form-control" />
+
+						 <label class="Validform_checktip"></label>
+
 		         </td>
 		      </tr>
 		      <tr>

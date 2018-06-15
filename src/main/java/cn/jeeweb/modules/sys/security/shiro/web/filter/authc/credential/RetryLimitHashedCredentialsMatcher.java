@@ -39,6 +39,10 @@ public class RetryLimitHashedCredentialsMatcher extends HashedCredentialsMatcher
 		this.showCaptchaRetryCount = showCaptchaRetryCount;
 	}
 
+	/**
+	 *
+	 * @param cacheManager 配置的EhCacheCacheManager
+	 */
 	public RetryLimitHashedCredentialsMatcher(CacheManager cacheManager) {
 		passwordRetryCache = cacheManager.getCache("passwordRetryCache");
 	}

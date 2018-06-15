@@ -120,7 +120,13 @@
 	</mvc:annotation-driven>
 
 	<!-- 类型转换及数据格式化 -->
-	<bean id="conversionService" class="org.springframework.format.support.FormattingConversionServiceFactoryBean" />
+	<!--定义一个我们自己的conversionService，我们自定义的Converter要注册到这里面(这里并没有注册Converter，所以)-->
+	<bean id="conversionService" class="org.springframework.format.support.FormattingConversionServiceFactoryBean" >
+	<property name="converters">
+		<set>
+		</set>
+	</property>
+	</bean>
 	<!--设置查询字符串转换器的conversion service
 	MethodInvokingFactoryBean的作用，就是调用“targetClass属性指定的类”的“targetMethod指定的方法”，方法的参数为arguments指定，
 	返回值，作为新的bean，或者另一个bean的属性；如果是静态方法，就是调用staticMethod指定的类的方法，参数为arguments指定

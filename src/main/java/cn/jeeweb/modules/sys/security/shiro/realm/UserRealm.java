@@ -77,11 +77,19 @@ public class UserRealm extends AuthorizingRealm {
 		return authenticationInfo;
 	}
 
+	/**
+	 *
+	 * @param principals 清空缓存的AuthorizationInfo信息
+	 */
 	@Override
 	public void clearCachedAuthorizationInfo(PrincipalCollection principals) {
 		super.clearCachedAuthorizationInfo(principals);
 	}
 
+	/**
+	 *
+	 * @param principals 清空缓存的AuthenticationInfo信息
+	 */
 	@Override
 	public void clearCachedAuthenticationInfo(PrincipalCollection principals) {
 		super.clearCachedAuthenticationInfo(principals);

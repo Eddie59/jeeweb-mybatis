@@ -14,6 +14,7 @@ import org.apache.shiro.session.Session;
 import org.apache.shiro.subject.Subject;
 import org.apache.shiro.web.filter.AccessControlFilter;
 import org.apache.shiro.web.filter.authc.UserFilter;
+import org.apache.shiro.web.servlet.ShiroHttpServletRequest;
 import org.apache.shiro.web.util.WebUtils;
 
 import javax.servlet.ServletRequest;
@@ -53,9 +54,18 @@ public class OnlineSessionFilter extends AccessControlFilter {
 		this.sessionDAO = sessionDAO;
 	}
 
+	/**
+	 *
+	 * @param request
+	 * @param response
+	 * @param mappedValue  [urls]配置中拦截器参数部分
+	 * @return 是否允许访问
+	 * @throws Exception
+	 */
 	@Override
 	protected boolean isAccessAllowed(ServletRequest request, ServletResponse response, Object mappedValue)
 			throws Exception {
+		String url=((ShiroHttpServletRequest) request).getRequestURL().toString();
 		Subject subject = getSubject(request, response);
 		//subject.getSession()获取Session,如果没有创建则调用sessionmanager的doCreateSession方法创建一个（这时id为null）（用到了xml配置的sessionManager中的<property name="sessionFactory" ref="onlineSessionFactory"/>）
 		//然后利用配置的id生成器生成session id并赋值给创建的session（用到了xml配置的sessionManager中的<property name="sessionDAO" ref="sessionDAO"/>，sessionDAO又使用了sessionIdGenerator）
@@ -91,7 +101,7 @@ public class OnlineSessionFilter extends AccessControlFilter {
 	 *  如果当前Session状态为force_logout，调用subject.logout()退出，重定向到login页
 	 * @param request
 	 * @param response
-	 * @return
+	 * @return 当访问拒绝时是否已经处理了,true表示该Filter没有处理，请求继续，false表示该Filter已经处理了，直接返回
 	 * @throws Exception
 	 */
 	@Override

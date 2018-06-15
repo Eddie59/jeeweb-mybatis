@@ -37,6 +37,8 @@ public class SessionManager extends DefaultWebSessionManager {
 
 	@Override
 	protected Serializable getSessionId(ServletRequest request, ServletResponse response) {
+
+		String uri=((ShiroHttpServletRequest) request).getRequestURL().toString();
 		// 如果参数中包含“__sid”参数，则使用此sid会话。
 		// 例如：http://localhost/project?__sid=xxx&__cookie=true
 		String sid = request.getParameter("__sid");
@@ -191,6 +193,13 @@ public class SessionManager extends DefaultWebSessionManager {
 		}
 	}
 
+	/**
+	 *
+	 * @param context
+	 * @return 		//subject.getSession()获取Session,如果没有创建则调用sessionmanager的doCreateSession方法创建一个（这时id为null）（用到了xml配置的sessionManager中的<property name="sessionFactory" ref="onlineSessionFactory"/>）
+	//然后利用配置的id生成器生成session id并赋值给创建的session（用到了xml配置的sessionManager中的<property name="sessionDAO" ref="sessionDAO"/>，sessionDAO又使用了sessionIdGenerator）
+	//然后把session以 key:session id value:session对象 保存到 配置的ehcache（用到了xml配置的sessionManager中的<property name="cacheManager" ref="shiroCacheManager"/>）
+	 */
 	@Override
 	protected Session doCreateSession(SessionContext context) {
 		try {

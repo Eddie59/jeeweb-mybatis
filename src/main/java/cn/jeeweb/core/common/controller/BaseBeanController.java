@@ -25,6 +25,8 @@ public abstract class BaseBeanController<Entity extends Serializable> extends Ba
 	 * Spring容器初始化Controller时，设置每个Controller使用的实体类型
 	 */
 	protected BaseBeanController() {
+
+		Class<?> clazz=getClass();
 		this.entityClass = ReflectionUtils.getSuperGenericType(getClass());
 	}
 

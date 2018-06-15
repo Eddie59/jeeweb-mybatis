@@ -23,6 +23,8 @@ import java.util.List;
 @SuppressWarnings({ "unchecked", "rawtypes" })
 public final class QueryableConvertUtils {
 
+	//ConversionService是作用就是，里面可以注册多个Converter用来类型转换
+	//精准的类型转换器，可以把任意类型转化为任意类型，和ProperyEditor区别，ProperyEditor只能由String到其它类型
 	private static volatile ConversionService conversionService;
 
 	//spring-mvc.xml文件里配置org.springframework.beans.factory.config.MethodInvokingFactoryBean类

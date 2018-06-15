@@ -63,6 +63,7 @@ public class CacheSessionDAO extends EnterpriseCacheSessionDAO implements Sessio
 				return;
 			}
 		}
+		//每次请求，调用CachingSessionDao类去更新ehcache中的session
 		super.doUpdate(session);
 		logger.debug("update {} {}", session.getId(), request != null ? request.getRequestURI() : "");
 	}
@@ -79,7 +80,7 @@ public class CacheSessionDAO extends EnterpriseCacheSessionDAO implements Sessio
 
 	/**
 	 * 	如DefaultSessionManager在创建完session后会调用该方法；
-	 * 	这方法的功能是保存到关系数据库/文件系统/NoSQL数据库，即可以实现会话的持久化，返回会话ID； 
+	 * 	这方法的功能是保存到ehcache/文件系统/NoSQL数据库，即可以实现会话的持久化，返回会话ID； 
 	 * 	这里调用super.doCreate(Session),生成个session id，返回session id，给session对象设置sessionid
 	 *
 	 * @param session
@@ -95,6 +96,7 @@ public class CacheSessionDAO extends EnterpriseCacheSessionDAO implements Sessio
 				return null;
 			}
 		}
+		//重点，生成id，把session对象保存到ehcache
 		super.doCreate(session);
 		logger.debug("doCreate {} {}", session, request != null ? request.getRequestURI() : "");
 		return session.getId();
@@ -129,6 +131,7 @@ public class CacheSessionDAO extends EnterpriseCacheSessionDAO implements Sessio
 			Session session = super.readSession(sessionId);
 			logger.debug("readSession {} {}", sessionId, request != null ? request.getRequestURI() : "");
 			if (request != null && session != null) {
+				//把Session保存到request的Attribute中
 				request.setAttribute("session_" + sessionId, session);
 			}
 

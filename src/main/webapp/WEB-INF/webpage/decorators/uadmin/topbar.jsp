@@ -1,7 +1,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java"%>
+
 <c:set var="menus" value="${fns:getMenuList()}" />
 <c:set var="currentMenu" value="${fns:getCurrentMenu()}" />
 <c:set var="pmenuids" value="${currentMenu.parentIds}" />
+
 <!--BEGIN TOPBAR-->
 <div id="header-topbar-option-demo" class="page-header-topbar">
     <nav id="topbar" role="navigation" style="margin-bottom: 0; z-index: 2;" class="navbar navbar-default navbar-static-top">

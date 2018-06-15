@@ -17,7 +17,7 @@
 
 	<!-- 自定义凭证匹配器 -->
 	<bean id="credentialsMatcher" class="cn.jeeweb.modules.sys.security.shiro.web.filter.authc.credential.RetryLimitHashedCredentialsMatcher">
-        <!--验证的次数使用ehcache缓存管理器保存-->
+        <!--验证的次数使用ehcache缓存管理器保存，不清楚为什么这里没有报错，自己测试的出错了？？-->
 		<constructor-arg ref="shiroCacheManager" />
 		<property name="maxRetryCount" value="${shiro.user.password.maxRetryCount}" />
 		<property name="showCaptchaRetryCount" value="${shiro.user.password.showCaptchaRetryCount}" />
@@ -31,7 +31,10 @@
         <!--验证Credentials使用自定义的credentialsMatcher-->
         <property name="credentialsMatcher" ref="credentialsMatcher" />
         <!-- 用切面缓存代理了 此处就不缓存了
-        什么意思，没看懂？？？-->
+        什么意思，没看懂？？？
+        Shiro提供了CachingRealm，其实现了CacheManagerAware接口，提供了缓存的一些基础实现；
+        另外AuthenticatingRealm及AuthorizingRealm分别提供了对AuthenticationInfo 和AuthorizationInfo信息的缓存
+        -->
         <property name="authenticationCachingEnabled" value="false"/>
         <property name="authorizationCachingEnabled" value="false"/>
     </bean>
@@ -100,7 +103,7 @@
     <!--<bean id="sessionManager" class="cn.jeeweb.modules.sys.security.shiro.web.session.mgt.OnlineWebSessionManager">-->
     <bean id="sessionManager" class="cn.jeeweb.core.security.shiro.session.SessionManager">
         <property name="globalSessionTimeout" value="${shiro.session.globalSessionTimeout}"></property>
-        <!--自定义在线Session工厂-->
+        <!--自定义Session工厂，当Session为空时，sessionManager会调用onlineSessionFactory，去创建一个session的实例-->
         <property name="sessionFactory" ref="onlineSessionFactory"/>
         <!--持久化session-->
         <property name="sessionDAO" ref="sessionDAO"/>

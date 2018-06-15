@@ -14,7 +14,7 @@ import cn.jeeweb.modules.sys.entity.User;
  * @author 王存见
  * @version 2016-12-03
  * @param <ID>
- *            主键类型
+ * 主键类型
  */
 public abstract class DataEntity<ID> extends AbstractEntity<ID> {
 

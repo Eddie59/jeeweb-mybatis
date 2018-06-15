@@ -29,6 +29,9 @@ public class SpringCacheManagerWrapper implements CacheManager {
 		return new SpringCacheWrapper(springCache);
 	}
 
+	/**
+	 * 实现Cache接口，实现Cache接口的方法
+	 */
 	static class SpringCacheWrapper implements Cache {
 		private org.springframework.cache.Cache springCache;
 
