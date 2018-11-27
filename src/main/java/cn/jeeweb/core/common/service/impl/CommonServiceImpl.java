@@ -32,7 +32,6 @@ public class CommonServiceImpl<M extends BaseMapper<T>, T>
 		extends ServiceImpl<M, T>
 		implements ICommonService<T>
 {
-
 	@Override
 	public Page<T> list(Queryable queryable) {
 		EntityWrapper<T> entityWrapper = new EntityWrapper<>();

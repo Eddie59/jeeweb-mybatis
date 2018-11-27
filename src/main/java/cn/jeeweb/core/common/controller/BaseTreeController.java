@@ -37,6 +37,9 @@ public abstract class BaseTreeController<Entity extends AbstractEntity<ID> & Tre
 	@Autowired
 	public void treeCommonService(ITreeCommonService<Entity, ID> treeCommonService) {
 		this.treeCommonService = treeCommonService;
+		//这里为什么要手动set，不是有	@Autowired注解吗，为什么不自己注入呢？
+		//MenuServiceImpl实现了IMenuService接口，IMenuService接口是没有形参的，如果有型参，这个方法不会被调用，而且setCommonService会同时找到多个Service
+		//这个还不是很理解，不明白？？？
 		setCommonService((ICommonService<Entity>) treeCommonService);
 	}
 

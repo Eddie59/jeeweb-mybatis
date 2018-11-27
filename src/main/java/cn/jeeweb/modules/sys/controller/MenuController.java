@@ -12,4 +12,6 @@ import cn.jeeweb.modules.sys.entity.Menu;
 @RequiresPathPermission("sys:menu")
 public class MenuController extends BaseTreeController<Menu, String> {
 
+    public MenuController()
+    {}
 }

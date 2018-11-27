@@ -63,8 +63,7 @@ public abstract class BaseBeanController<Entity extends Serializable> extends Ba
 		if (result.getErrorCount() > 0) {
 			List<ObjectError> objectErrorList = result.getAllErrors();
 			for (ObjectError objectError : objectErrorList) {
-				String message = MessageUtils.getMessage(objectError.getCode(), objectError.getDefaultMessage(),
-						objectError.getArguments());
+				String message = MessageUtils.getMessage(objectError.getCode(), objectError.getDefaultMessage(), objectError.getArguments());
 				if (!StringUtils.isEmpty(message)) {
 					errorMsg = errorMsg + message + "<br />";
 				}

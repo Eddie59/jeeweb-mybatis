@@ -12,7 +12,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 @Transactional
 @Service("menuService")
-public class MenuServiceImpl extends TreeCommonServiceImpl<MenuMapper, Menu, String> implements IMenuService {
+public class MenuServiceImpl extends TreeCommonServiceImpl<MenuMapper, Menu, String>
+		implements IMenuService {
 
 	@Override
 	public List<Menu> findMenuByUserId(String userId) {
