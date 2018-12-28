@@ -51,7 +51,7 @@ public class JedisSessionDAO extends AbstractSessionDAO implements SessionDAO {
 			}
 			// 手动控制不更新SESSION
 			String updateSession = request.getParameter("updateSession");
-			if (Boolean.FALSE.equals(Boolean.parseBoolean(updateSession))) {
+			if (!StringUtils.isEmpty(updateSession)&& Boolean.FALSE.equals(Boolean.parseBoolean(updateSession))) {
 				return;
 			}
 		}
@@ -62,8 +62,7 @@ public class JedisSessionDAO extends AbstractSessionDAO implements SessionDAO {
 			jedis = JedisUtils.getResource();
 
 			// 获取登录者编号
-			PrincipalCollection pc = (PrincipalCollection) session
-					.getAttribute(DefaultSubjectContext.PRINCIPALS_SESSION_KEY);
+			PrincipalCollection pc = (PrincipalCollection) session.getAttribute(DefaultSubjectContext.PRINCIPALS_SESSION_KEY);
 			String principalId = pc != null ? pc.getPrimaryPrincipal().toString() : StringUtils.EMPTY;
 
 			jedis.hset(sessionKeyPrefix, session.getId().toString(),

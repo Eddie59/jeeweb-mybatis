@@ -23,6 +23,7 @@ public class PermissionInterceptorAdapter extends HandlerInterceptorAdapter {
 	@Override
 	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
 			throws Exception {
+		String url= request.getSession().getServletContext().getContextPath();
 		if (handler instanceof HandlerMethod) {
 			HandlerMethod handlerMethod = (HandlerMethod) handler;
 			RequiresMethodPermissions requiresMethodPermissions = handlerMethod

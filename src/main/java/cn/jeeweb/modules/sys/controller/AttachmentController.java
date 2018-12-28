@@ -91,23 +91,23 @@ public class AttachmentController extends BaseController {
 		AjaxJson ajaxJson = new AjaxJson();
 		List<Attachment> attachmentList = new ArrayList<Attachment>();
 
-		//使用Spring MVC中的CommonsMultipartResolver
+		//使用Spring MVC中的CommonsMultipartResolver ,将当前上下文初始化给  CommonsMutipartResolver （多部分解析器）
 		CommonsMultipartResolver multipartResolver = new CommonsMultipartResolver(request.getSession().getServletContext());
 
-		//判断request是否有文件上传
+		//检查form中是否有enctype="multipart/form-data"
 		if (multipartResolver.isMultipart(request)) {
+			//将request变成多部分request
 			MultipartHttpServletRequest multiRequest = (MultipartHttpServletRequest) request;
+			//获取multiRequest 中所有的文件名
 			Iterator<String> ite = multiRequest.getFileNames();
 			while (ite.hasNext()) {
+				//一次遍历所有文件
 				MultipartFile file = multiRequest.getFile(ite.next());
 				try {
-
 					//上传文件到目录，然后返回上传后的文件信息
 					Attachment attachment = attachmentService.upload(request, file);
-
 					//把上传后的文件信息添加到attachmentList
 					attachmentList.add(attachment);
-
 					continue;
 				} catch (IOException e) {
 					ajaxJson.fail(MessageUtils.getMessage("upload.server.error"));

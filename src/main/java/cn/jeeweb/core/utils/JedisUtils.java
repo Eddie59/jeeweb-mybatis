@@ -7,6 +7,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
+import redis.clients.jedis.JedisPoolConfig;
 import redis.clients.jedis.exceptions.JedisException;
 
 import java.io.Serializable;
@@ -852,7 +853,13 @@ public class JedisUtils {
 
 	private static  void poolInit() {
 		if (null == jedisPool) {
-			jedisPool = SpringContextHolder.getBean(JedisPool.class);
+			/*jedisPool = SpringContextHolder.getBean(JedisPool.class);*/
+
+				JedisPoolConfig jedisPoolConfig = new JedisPoolConfig();
+				jedisPoolConfig.setMaxTotal(10);
+				jedisPool = new JedisPool(jedisPoolConfig, "localhost");
+				System.out.println("连接池初始化成功");
+
 		}
 	}
 	/**

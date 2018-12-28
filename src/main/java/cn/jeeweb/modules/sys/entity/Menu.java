@@ -29,6 +29,7 @@ public class Menu extends TreeEntity<Menu> {
 	/** 排序 */
 	@TableField(value = "sort")
 	private Integer sort;
+
 	@TableField(value = "create_by", el = "createBy.id", fill = FieldFill.INSERT)
 	protected User createBy; // 创建者
 	@TableField(value = "create_date", fill = FieldFill.INSERT)

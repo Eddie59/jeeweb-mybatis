@@ -196,7 +196,7 @@ public class SessionManager extends DefaultWebSessionManager {
 	/**
 	 *
 	 * @param context
-	 * @return 		//subject.getSession()获取Session,如果没有创建则调用sessionmanager的doCreateSession方法创建一个（这时id为null）（用到了xml配置的sessionManager中的<property name="sessionFactory" ref="onlineSessionFactory"/>）
+	 * @return 		//subject.getSession()获取Session,如果没有创建，则调用sessionmanager的doCreateSession方法创建一个（这时id为null）（用到了xml配置的sessionManager中的<property name="sessionFactory" ref="onlineSessionFactory"/>）
 	//然后利用配置的id生成器生成session id并赋值给创建的session（用到了xml配置的sessionManager中的<property name="sessionDAO" ref="sessionDAO"/>，sessionDAO又使用了sessionIdGenerator）
 	//然后把session以 key:session id value:session对象 保存到 配置的ehcache（用到了xml配置的sessionManager中的<property name="cacheManager" ref="shiroCacheManager"/>）
 	 */

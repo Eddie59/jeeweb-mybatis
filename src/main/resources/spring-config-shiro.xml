@@ -63,21 +63,24 @@
     </bean>
     
     <!--dao -->
-    <!-- 会话保持的DAO
-    <bean id="onlineSessionDAO" class="cn.jeeweb.modules.sys.security.shiro.session.mgt.eis.OnlineSessionDAO">
+<!--
+     会话保持的DAO
+-->
+<!--    <bean id="onlineSessionDAO" class="cn.jeeweb.modules.sys.security.shiro.session.mgt.eis.OnlineSessionDAO">
         <property name="sessionIdGenerator" ref="sessionIdGenerator"/>
         <property name="activeSessionsCacheName" value="${shiro.active.session.cacheName}"/>
-    </bean> -->
+    </bean>-->
     <!-- 会话存储/持久化-->
-    <bean id="sessionDAO" class="cn.jeeweb.core.security.shiro.session.CacheSessionDAO">
- 		<property name="sessionIdGenerator" ref="sessionIdGenerator" />
-  	</bean>
+    <!--<bean id="sessionDAO" class="cn.jeeweb.core.security.shiro.session.CacheSessionDAO">-->
+ 		<!--<property name="sessionIdGenerator" ref="sessionIdGenerator" />-->
+  	<!--</bean>-->
 
-    <!-- 自定义Session存储容器
+    <!-- 自定义Session存储容器-->
     <bean id="sessionDAO" class="cn.jeeweb.core.security.shiro.session.JedisSessionDAO">
         <property name="sessionIdGenerator" ref="sessionIdGenerator" />
         <property name="sessionKeyPrefix" value="${redis.keyPrefix}_session_" />
-    </bean>-->
+    </bean>
+
 
     <!--自定义在线Session工厂
     subject.getSession()时调用 -->
@@ -159,8 +162,8 @@
         <property name="jcapatchaErrorUrl" value="${shiro.jcaptcha.error.url}"/>
     </bean>
 
-    <!-- 同步当前会话数据到数据库
-    <bean id="syncOnlineSessionFilter" class="cn.jeeweb.modules.sys.security.shiro.web.filter.sync.SyncOnlineSessionFilter">
+     <!--同步当前会话数据到数据库-->
+<!--    <bean id="syncOnlineSessionFilter" class="cn.jeeweb.modules.sys.security.shiro.web.filter.sync.SyncOnlineSessionFilter">
         <property name="onlineSessionDAO" ref="onlineSessionDAO"/>
     </bean>-->
 

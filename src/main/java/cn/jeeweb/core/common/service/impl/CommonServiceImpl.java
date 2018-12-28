@@ -10,6 +10,9 @@ import cn.jeeweb.core.query.parse.QueryToWrapper;
 import cn.jeeweb.core.query.wrapper.EntityWrapper;
 
 import java.util.List;
+
+import com.baomidou.mybatisplus.plugins.pagination.PageHelper;
+import net.sf.ehcache.constructs.web.PageInfo;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.StringUtils;
 
@@ -66,6 +69,7 @@ public class CommonServiceImpl<M extends BaseMapper<T>, T>
 		Pageable pageable = queryable.getPageable();
 		com.baomidou.mybatisplus.plugins.Page<T> page = new com.baomidou.mybatisplus.plugins.Page<T>(pageable.getPageNumber(), pageable.getPageSize());
 		com.baomidou.mybatisplus.plugins.Page<T> content = selectPage(page, wrapper);
+
 		//返回一PageImpl对象
 		return content;
 	}

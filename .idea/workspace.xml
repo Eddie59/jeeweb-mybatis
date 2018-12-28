@@ -7,26 +7,227 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a0554e7-43de-4a45-b93d-9fb9c470bf95" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/jeeweb/core/common/controller/BaseTreeController.class" afterPath="$PROJECT_DIR$/target/classes/cn/jeeweb/core/common/controller/BaseTreeController.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/jeeweb/core/common/controller/BaseBeanController.class" afterPath="$PROJECT_DIR$/target/classes/cn/jeeweb/core/common/controller/BaseBeanController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/jeeweb/core/common/controller/BaseCRUDController.class" afterPath="$PROJECT_DIR$/target/classes/cn/jeeweb/core/common/controller/BaseCRUDController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/jeeweb/core/common/service/impl/CommonServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/cn/jeeweb/core/common/service/impl/CommonServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/jeeweb/modules/sys/controller/MenuController.class" afterPath="$PROJECT_DIR$/target/classes/cn/jeeweb/modules/sys/controller/MenuController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/jeeweb/modules/sys/service/impl/MenuServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/cn/jeeweb/modules/sys/service/impl/MenuServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/jeeweb/core/security/shiro/interceptor/PermissionInterceptorAdapter.class" afterPath="$PROJECT_DIR$/target/classes/cn/jeeweb/core/security/shiro/interceptor/PermissionInterceptorAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/jeeweb/core/security/shiro/session/JedisSessionDAO.class" afterPath="$PROJECT_DIR$/target/classes/cn/jeeweb/core/security/shiro/session/JedisSessionDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/jeeweb/core/utils/JedisUtils.class" afterPath="$PROJECT_DIR$/target/classes/cn/jeeweb/core/utils/JedisUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/jeeweb/modules/sys/controller/AttachmentController.class" afterPath="$PROJECT_DIR$/target/classes/cn/jeeweb/modules/sys/controller/AttachmentController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/jeeweb/modules/sys/entity/Log.class" afterPath="$PROJECT_DIR$/target/classes/cn/jeeweb/modules/sys/entity/Log.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/jeeweb/modules/sys/entity/Menu.class" afterPath="$PROJECT_DIR$/target/classes/cn/jeeweb/modules/sys/entity/Menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/jeeweb/modules/sys/utils/UserUtils.class" afterPath="$PROJECT_DIR$/target/classes/cn/jeeweb/modules/sys/utils/UserUtils.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis.war" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/common/controller/BaseBeanController.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/common/controller/BaseBeanController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/common/controller/BaseCRUDController.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/common/controller/BaseCRUDController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/common/controller/BaseController.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/common/controller/BaseController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/common/controller/BaseTreeController.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/common/controller/BaseTreeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/common/entity/AbstractEntity.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/common/entity/AbstractEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/common/entity/TreeEntity.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/common/entity/TreeEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/common/entity/tree/BootstrapTreeHelper.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/common/entity/tree/BootstrapTreeHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/common/entity/tree/TreeSortUtil.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/common/entity/tree/TreeSortUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/common/form/BaseMethodArgumentResolver.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/common/form/BaseMethodArgumentResolver.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/common/service/impl/CommonServiceImpl.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/common/service/impl/CommonServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/controller/MenuController.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/controller/MenuController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/service/impl/MenuServiceImpl.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/service/impl/MenuServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/disruptor/email/EmailEventProducer.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/disruptor/email/EmailEventProducer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/disruptor/email/EmailHelper.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/disruptor/email/EmailHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/disruptor/sms/SmsEventProducer.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/disruptor/sms/SmsEventProducer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/disruptor/sms/SmsHelper.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/disruptor/sms/SmsHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/filter/xss/XssHttpServletRequestWrapper.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/filter/xss/XssHttpServletRequestWrapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/interceptor/LocaleInterceptor.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/interceptor/LocaleInterceptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/mapper/JaxbMapper.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/mapper/JaxbMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/mapper/JsonMapper.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/mapper/JsonMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/model/PageJson.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/model/PageJson.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/quartz/QuartzManager.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/quartz/QuartzManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/quartz/utils/TaskUtils.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/quartz/utils/TaskUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/query/data/Condition$Filter.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/query/data/Condition$Filter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/query/data/Condition$Operator.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/query/data/Condition$Operator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/query/data/Condition.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/query/data/Condition.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/query/data/PageImpl.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/query/data/PageImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/query/data/PageRequest.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/query/data/PageRequest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/query/data/QueryPropertyPreFilter.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/query/data/QueryPropertyPreFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/query/data/QueryRequest.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/query/data/QueryRequest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/query/data/Sort$Direction.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/query/data/Sort$Direction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/query/data/Sort$Order.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/query/data/Sort$Order.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/query/data/Sort.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/query/data/Sort.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/query/injector/AutoSqlInjector.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/query/injector/AutoSqlInjector.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/query/parse/QueryToWrapper.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/query/parse/QueryToWrapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/query/resolver/FormModelMethodArgumentResolver.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/query/resolver/FormModelMethodArgumentResolver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/query/resolver/PageableMethodArgumentResolver.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/query/resolver/PageableMethodArgumentResolver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/query/resolver/PropertyPreFilterMethodArgumentResolver.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/query/resolver/PropertyPreFilterMethodArgumentResolver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/query/resolver/QueryMethodArgumentResolver.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/query/resolver/QueryMethodArgumentResolver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/query/resolver/RequestJsonParamMethodArgumentResolver.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/query/resolver/RequestJsonParamMethodArgumentResolver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/query/utils/QueryableConvertUtils.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/query/utils/QueryableConvertUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/query/wrapper/EntityWrapper.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/query/wrapper/EntityWrapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/security/shiro/cache/JedisCacheManager$JedisCache.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/security/shiro/cache/JedisCacheManager$JedisCache.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/security/shiro/cache/SessionCacheManager$SessionCache.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/security/shiro/cache/SessionCacheManager$SessionCache.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/security/shiro/cache/SpringCacheManagerWrapper$SpringCacheWrapper.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/security/shiro/cache/SpringCacheManagerWrapper$SpringCacheWrapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/security/shiro/interceptor/PermissionInterceptorAdapter.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/security/shiro/interceptor/PermissionInterceptorAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/security/shiro/session/CacheSessionDAO.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/security/shiro/session/CacheSessionDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/security/shiro/session/JedisSessionDAO.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/security/shiro/session/JedisSessionDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/security/shiro/session/SessionManager.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/security/shiro/session/SessionManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/security/utils/Md5Utils.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/security/utils/Md5Utils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/form/CheckboxesTag.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/form/CheckboxesTag.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/form/ComboxTag.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/form/ComboxTag.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/form/EditorTag.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/form/EditorTag.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/form/FileInputTag.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/form/FileInputTag.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/form/GridSelectTag.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/form/GridSelectTag.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/form/HiddenInputTag.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/form/HiddenInputTag.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/form/IconSelectTag.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/form/IconSelectTag.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/form/InputTag.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/form/InputTag.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/form/PasswordInputTag.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/form/PasswordInputTag.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/form/RadioButtonsTag.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/form/RadioButtonsTag.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/form/SelectTag.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/form/SelectTag.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/form/TextareaTag.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/form/TextareaTag.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/form/TreeSelectTag.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/form/TreeSelectTag.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/form/support/CustomBindStatus.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/form/support/CustomBindStatus.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/grid/DataGridButtonTag.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/grid/DataGridButtonTag.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/grid/DataGridColumnTag.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/grid/DataGridColumnTag.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/grid/DataGridQueryTag.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/grid/DataGridQueryTag.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/grid/DataGridTag.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/grid/DataGridTag.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/grid/DataGridToolbarTag.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/grid/DataGridToolbarTag.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/html/AbstractHtmlTag.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/html/AbstractHtmlTag.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/html/CodeDisplayTag.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/html/CodeDisplayTag.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/html/DisplayTag.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/html/DisplayTag.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/html/builder/DefaultHtmlComponentBuilder.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/html/builder/DefaultHtmlComponentBuilder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/html/listener/HtmlComponentInitListener.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/html/listener/HtmlComponentInitListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/html/manager/HtmlComponentManager.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/html/manager/HtmlComponentManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/html/resolver/HtmlComponentDTDEntityResolver.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/html/resolver/HtmlComponentDTDEntityResolver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/view/TreeviewTag.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/tags/view/TreeviewTag.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/ArrayUtils.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/ArrayUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/CacheUtils.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/CacheUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/ComplexPropertyPreFilter.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/ComplexPropertyPreFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/CookieUtils.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/CookieUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/DateUtils.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/DateUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/Exceptions.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/Exceptions.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/FileUtil.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/FileUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/FreeMarkerUtils.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/FreeMarkerUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/IpUtils.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/IpUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/JedisUtils.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/JedisUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/JeewebPropertiesUtil.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/JeewebPropertiesUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/MapBeanUtil.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/MapBeanUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/MessageUtils.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/MessageUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/MyBeanUtils.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/MyBeanUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/ObjectSwitchHelper.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/ObjectSwitchHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/ObjectUtils.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/ObjectUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/PropertiesUtil.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/PropertiesUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/PublicUtil.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/PublicUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/ReflectHelper.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/ReflectHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/Reflections.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/Reflections.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/SerializationUtils.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/SerializationUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/ServletUtils.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/ServletUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/StringUtils.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/StringUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/convert/DateConvertEditor.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/convert/DateConvertEditor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/convert/StringConvertEditor.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/convert/StringConvertEditor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/email/Email.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/email/Email.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/http/HttpRequest.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/http/HttpRequest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/http/HttpRequestUtils.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/http/HttpRequestUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/http/SSLHttpClient$1.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/http/SSLHttpClient$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/security/BASE64Decoder.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/security/BASE64Decoder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/security/Base32.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/security/Base32.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/security/CharacterDecoder.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/security/CharacterDecoder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/security/CharacterEncoder.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/security/CharacterEncoder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/security/CipherTools.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/security/CipherTools.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/security/Coder.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/security/Coder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/security/EncryptUtil.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/security/EncryptUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/security/Md5Utils.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/security/Md5Utils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/sms/sender/CCPSmsSender.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/sms/sender/CCPSmsSender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/sms/sender/HuyiSmsSender.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/sms/sender/HuyiSmsSender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/sms/sender/cloopen/CCPRestSDK.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/sms/sender/cloopen/CCPRestSDK.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/sms/sender/huyi/HuyiRestSDK.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/sms/sender/huyi/HuyiRestSDK.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/upload/FileUploadUtils.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/core/utils/upload/FileUploadUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/codegen/codegenerator/GeneratorManagor.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/codegen/codegenerator/GeneratorManagor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/codegen/codegenerator/data/AttributeInfo.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/codegen/codegenerator/data/AttributeInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/codegen/codegenerator/generator/DefaultGenerator.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/codegen/codegenerator/generator/DefaultGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/codegen/codegenerator/utils/SqlUtils.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/codegen/codegenerator/utils/SqlUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/codegen/codegenerator/utils/type/DbTypeConvert.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/codegen/codegenerator/utils/type/DbTypeConvert.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/codegen/controller/TableController.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/codegen/controller/TableController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/codegen/dao/imp/GeneratorDaoImpl.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/codegen/dao/imp/GeneratorDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/codegen/entity/Column.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/codegen/entity/Column.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/codegen/service/impl/TableServiceImpl.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/codegen/service/impl/TableServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/common/controller/DuplicateValidController.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/common/controller/DuplicateValidController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/common/controller/JCaptchaValidateController.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/common/controller/JCaptchaValidateController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/common/jcaptcha/JCaptcha.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/common/jcaptcha/JCaptcha.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/common/jcaptcha/JCaptchaFilter.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/common/jcaptcha/JCaptchaFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/email/controller/EmailSendController.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/email/controller/EmailSendController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/email/dao/EmailDaoIml.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/email/dao/EmailDaoIml.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sms/controller/SmsSendController.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sms/controller/SmsSendController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sms/dao/SmsDaoIml.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sms/dao/SmsDaoIml.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/controller/AttachmentController.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/controller/AttachmentController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/controller/DataSourceController.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/controller/DataSourceController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/controller/DictGroupController.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/controller/DictGroupController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/controller/IndexController.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/controller/IndexController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/controller/LoginController.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/controller/LoginController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/controller/RoleController.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/controller/RoleController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/controller/SettingController.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/controller/SettingController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/controller/UserController.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/controller/UserOnlineController.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/controller/UserOnlineController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/entity/Log.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/entity/Log.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/entity/Menu.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/entity/Menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/security/shiro/cache/spring/SpringCacheManagerWrapper$SpringCacheWrapper.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/security/shiro/cache/spring/SpringCacheManagerWrapper$SpringCacheWrapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/security/shiro/realm/UserRealm$Principal.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/security/shiro/realm/UserRealm$Principal.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/security/shiro/realm/UserRealm.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/security/shiro/realm/UserRealm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/security/shiro/session/mgt/OnlineSessionFactory.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/security/shiro/session/mgt/OnlineSessionFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/security/shiro/session/mgt/eis/OnlineSessionDAO.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/security/shiro/session/mgt/eis/OnlineSessionDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/security/shiro/session/mgt/scheduler/SpringSessionValidationScheduler.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/security/shiro/session/mgt/scheduler/SpringSessionValidationScheduler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/security/shiro/web/filter/authc/FormAuthenticationFilter.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/security/shiro/web/filter/authc/FormAuthenticationFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/security/shiro/web/filter/authc/credential/RetryLimitHashedCredentialsMatcher.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/security/shiro/web/filter/authc/credential/RetryLimitHashedCredentialsMatcher.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/security/shiro/web/filter/jcaptcha/JCaptchaValidateFilter.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/security/shiro/web/filter/jcaptcha/JCaptchaValidateFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/security/shiro/web/filter/online/OnlineSessionFilter.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/security/shiro/web/filter/online/OnlineSessionFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/security/shiro/web/filter/sync/SyncOnlineSessionFilter.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/security/shiro/web/filter/sync/SyncOnlineSessionFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/security/shiro/web/filter/user/SysUserFilter.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/security/shiro/web/filter/user/SysUserFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/security/shiro/web/session/mgt/OnlineWebSessionManager.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/security/shiro/web/session/mgt/OnlineWebSessionManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/service/impl/AttachmentServiceImpl.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/service/impl/AttachmentServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/service/impl/UserOnlineServiceImpl.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/service/impl/UserOnlineServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/service/impl/UserServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/tags/SysFunctions.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/tags/SysFunctions.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/utils/DictUtils.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/utils/DictUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/utils/DynamicDBUtils.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/utils/DynamicDBUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/utils/LogUtils$SaveLogThread.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/utils/LogUtils$SaveLogThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/utils/LogUtils.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/utils/LogUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/utils/UserUtils$1.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/utils/UserUtils$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/utils/UserUtils.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/sys/utils/UserUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/task/controller/ScheduleJobController.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/task/controller/ScheduleJobController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/task/listener/ScheduleJobInitListener.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/task/listener/ScheduleJobInitListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/task/service/impl/ScheduleJobServiceImpl.class" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/cn/jeeweb/modules/task/service/impl/ScheduleJobServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/jeeweb_mybatis_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/jeeweb_mybatis_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/common/controller/BaseBeanController.java" afterPath="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/common/controller/BaseBeanController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/common/controller/BaseTreeController.java" afterPath="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/common/controller/BaseTreeController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jeeweb-mybatis.iml" afterPath="$PROJECT_DIR$/jeeweb-mybatis.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/common/controller/BaseCRUDController.java" afterPath="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/common/controller/BaseCRUDController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/common/service/impl/CommonServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/common/service/impl/CommonServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/controller/MenuController.java" afterPath="$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/controller/MenuController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/service/impl/MenuServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/service/impl/MenuServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/webpage/modules/sys/index/index-inspinia.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/webpage/modules/sys/index/index-inspinia.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/spring-mvc.xml" afterPath="$PROJECT_DIR$/target/classes/spring-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/spring-mvc.xml" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/spring-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/webpage/modules/sys/index/index-inspinia.jsp" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/webpage/modules/sys/index/index-inspinia.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/security/shiro/interceptor/PermissionInterceptorAdapter.java" afterPath="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/security/shiro/interceptor/PermissionInterceptorAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/security/shiro/session/JedisSessionDAO.java" afterPath="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/security/shiro/session/JedisSessionDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/security/shiro/session/SessionManager.java" afterPath="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/security/shiro/session/SessionManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/utils/JedisUtils.java" afterPath="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/utils/JedisUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/controller/AttachmentController.java" afterPath="$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/controller/AttachmentController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/entity/Log.java" afterPath="$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/entity/Log.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/entity/Menu.java" afterPath="$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/entity/Menu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/utils/UserUtils.java" afterPath="$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/utils/UserUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/ehcache/ehcache.xml" afterPath="$PROJECT_DIR$/src/main/resources/ehcache/ehcache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/jeeweb.properties" afterPath="$PROJECT_DIR$/src/main/resources/jeeweb.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mappings/modules/sys/MenuMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappings/modules/sys/MenuMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mappings/modules/sys/UserMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappings/modules/sys/UserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/shiro.properties" afterPath="$PROJECT_DIR$/src/main/resources/shiro.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring-config-shiro.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring-config-shiro.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/webpage/modules/sys/common/icons.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/webpage/modules/sys/common/icons.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ehcache/ehcache.xml" afterPath="$PROJECT_DIR$/target/classes/ehcache/ehcache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jeeweb.properties" afterPath="$PROJECT_DIR$/target/classes/jeeweb.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/log4j.properties" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mappings/modules/sys/MenuMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mappings/modules/sys/MenuMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mappings/modules/sys/UserMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mappings/modules/sys/UserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/shiro.properties" afterPath="$PROJECT_DIR$/target/classes/shiro.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/spring-config-shiro.xml" afterPath="$PROJECT_DIR$/target/classes/spring-config-shiro.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/ehcache/ehcache.xml" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/ehcache/ehcache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/jeeweb.properties" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/jeeweb.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/log4j.properties" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/mappings/modules/sys/MenuMapper.xml" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/mappings/modules/sys/MenuMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/mappings/modules/sys/UserMapper.xml" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/mappings/modules/sys/UserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/shiro.properties" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/shiro.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/spring-config-shiro.xml" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/classes/spring-config-shiro.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/webpage/modules/sys/common/icons.jsp" afterPath="$PROJECT_DIR$/target/jeeweb-mybatis/WEB-INF/webpage/modules/sys/common/icons.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,23 +250,86 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BaseCRUDController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/core/common/controller/BaseCRUDController.java">
+      <file leaf-file-name="OnlineSession.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/security/shiro/session/mgt/OnlineSession.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="279" column="49" lean-forward="true" selection-start-line="279" selection-start-column="49" selection-end-line="279" selection-end-column="49" />
+            <state relative-caret-position="391">
+              <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OnlineSessionFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/security/shiro/session/mgt/OnlineSessionFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RetryLimitHashedCredentialsMatcher.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/security/shiro/web/filter/authc/credential/RetryLimitHashedCredentialsMatcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="53" column="26" lean-forward="true" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
               <folding>
-                <element signature="method#delete#0;class#BaseCRUDController#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseBeanController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/core/common/controller/BaseBeanController.java">
+      <file leaf-file-name="OnlineSessionDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/security/shiro/session/mgt/eis/OnlineSessionDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="41" column="25" lean-forward="true" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+            <state relative-caret-position="-1206">
+              <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringCacheManagerWrapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/security/shiro/cache/spring/SpringCacheManagerWrapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+              <folding>
+                <element signature="e#871#872#0" expanded="true" />
+                <element signature="e#910#911#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SyncOnlineSessionFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/security/shiro/web/filter/sync/SyncOnlineSessionFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SysUserFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/security/shiro/web/filter/user/SysUserFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JCaptchaValidateController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/common/controller/JCaptchaValidateController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -82,36 +346,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>callFunc</find>
-      <find>configureAndRefreshWebApplicationContext</find>
-      <find>mybatis</find>
-      <find>mybatis-plus.version</find>
-      <find>commons</find>
-      <find>commons-lang3.version</find>
-      <find>staticPath</find>
-      <find>platformName</find>
-      <find>i18n</find>
-      <find>admin.url.prefix</find>
-      <find>slimScroll</find>
-      <find>main</find>
-      <find>left</find>
-      <find>rootMap</find>
-      <find>Qualifier</find>
-      <find>@QueryableDefaults</find>
-      <find>defaultPageRequest</find>
-      <find>assertSortProperty</find>
-      <find>filterQueryValues</find>
-      <find>setPageable</find>
-      <find>filterName</find>
-      <find>getQueryableDefaults</find>
-      <find>QueryToWrapper</find>
-      <find>parseSort</find>
-      <find>FormattingConversionServiceFactoryBean</find>
-      <find>/theme/</find>
-      <find>/admin</find>
-      <find>conversionService</find>
+      <find>sessionKeyPrefix</find>
+      <find>getPrincipal</find>
+      <find>Principal</find>
+      <find>getActiveSessions</find>
+      <find>setSessionManager</find>
+      <find>log4j.properties</find>
+      <find>log4jConfigLocation</find>
+      <find>log</find>
+      <find>xss</find>
+      <find>.css,.js,.png</find>
+      <find>isShowCaptcha</find>
+      <find>JCaptcha</find>
+      <find>showCaptchaRetryCount</find>
+      <find>springCacheManager</find>
+      <find>showCaptcha</find>
+      <find>RetryLimitHashedCredentialsMatcher</find>
+      <find>retryCount</find>
+      <find>passwordRetryCache</find>
+      <find>SpringCacheManagerWrapper</find>
+      <find>isValidateCaptcha</find>
+      <find>jCaptchaValidate</find>
+      <find>jcaptcha.version</find>
+      <find>class Session</find>
+      <find>setHost</find>
+      <find>ca</find>
       <find>create</find>
-      <find>get</find>
+      <find>changeJcaptchaSrc</find>
+      <find>captcha</find>
+      <find>JCaptchaValidateFilter</find>
+      <find>jcaptcha</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -128,38 +392,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/webpage/decorators/default/single-theme.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/base/BaseEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/utils/ReflectionUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/webpage/modules/sys/dict/edit.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/query/data/Condition.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/query/data/Page.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/query/data/Sort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/query/data/PageRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/query/data/QueryRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/query/data/PageImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/query/data/QueryPropertyPreFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/query/resolver/QueryMethodArgumentResolver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/query/parse/QueryToWrapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/utils/ComplexPropertyPreFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/common/service/ICommonService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/common/controller/BaseCRUDController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/query/utils/QueryableConvertUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/webpage/modules/sys/dict/group/edit.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/entity/DictGroup.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/common/entity/AbstractEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/common/entity/DataEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/common/entity/TreeEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/security/shiro/realm/UserRealm.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/security/shiro/web/filter/authc/credential/RetryLimitHashedCredentialsMatcher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/security/shiro/cache/SpringCacheManagerWrapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/security/shiro/web/filter/online/OnlineSessionFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/security/shiro/session/SessionManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/security/shiro/session/CacheSessionDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-config-shiro.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/common/service/impl/TreeCommonServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/common/mapper/BaseTreeMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-config-mybatis.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
@@ -167,7 +403,6 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/controller/MenuController.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/service/impl/MenuServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/common/controller/BaseTreeController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/common/service/impl/CommonServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/entity/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/tags/html/manager/HtmlComponentManager.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/webpage/modules/sys/index/index-inspinia.jsp" />
@@ -179,6 +414,35 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/utils/convert/DateConvertEditor.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/webpage/decorators/uadmin/menu.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/common/controller/BaseBeanController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/ehcache/ehcache.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/security/shiro/session/SessionManager.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/webpage/modules/sys/user/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/common/controller/BaseCRUDController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/entity/Menu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/common/entity/TreeEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/common/service/impl/TreeCommonServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/common/service/ITreeCommonService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappings/modules/sys/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/controller/AttachmentController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/utils/upload/FileUploadUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/utils/CacheUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappings/modules/sys/MenuMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/webpage/modules/sys/common/icons.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/security/shiro/session/CacheSessionDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/common/service/impl/CommonServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/security/shiro/interceptor/PermissionInterceptorAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/jeeweb.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-config-shiro.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/utils/JedisUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/security/shiro/session/JedisSessionDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/utils/UserUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/entity/Log.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/shiro.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/jeeweb/core/security/shiro/cache/SpringCacheManagerWrapper.java" />
       </list>
     </option>
   </component>
@@ -195,45 +459,27 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="jeeweb mybatis Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="jeeweb mybatis Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="jeeweb mybatis Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="jeeweb mybatis Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="jeeweb mybatis Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework:spring-webmvc:4.0.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="281" />
-    <option name="y" value="121" />
+    <option name="x" value="204" />
+    <option name="y" value="103" />
     <option name="width" value="1721" />
     <option name="height" value="1014" />
   </component>
@@ -252,6 +498,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -313,7 +560,7 @@
               <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="jeeweb" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jeeweb-mybatis" type="b2602c69:ProjectViewProjectNode" />
@@ -324,8 +571,72 @@
               <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="jeeweb" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeeweb-mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeeweb-mybatis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="jeeweb" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="authz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeeweb-mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeeweb-mybatis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="jeeweb" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeeweb-mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeeweb-mybatis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="jeeweb" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeeweb-mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeeweb-mybatis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="jeeweb" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="session" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeeweb-mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeeweb-mybatis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="jeeweb" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jeeweb-mybatis" type="b2602c69:ProjectViewProjectNode" />
@@ -342,7 +653,247 @@
               <item name="jeeweb-mybatis-master" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="jeeweb" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeeweb-mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeeweb-mybatis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="jeeweb" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeeweb-mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeeweb-mybatis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="jeeweb" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeeweb-mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeeweb-mybatis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="jeeweb" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeeweb-mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeeweb-mybatis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="jeeweb" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeeweb-mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeeweb-mybatis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="jeeweb" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeeweb-mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeeweb-mybatis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="jeeweb" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="realm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeeweb-mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeeweb-mybatis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="jeeweb" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="session" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeeweb-mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeeweb-mybatis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="jeeweb" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="session" type="462c0819:PsiDirectoryNode" />
+              <item name="mgt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeeweb-mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeeweb-mybatis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="jeeweb" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="session" type="462c0819:PsiDirectoryNode" />
+              <item name="mgt" type="462c0819:PsiDirectoryNode" />
+              <item name="eis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeeweb-mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeeweb-mybatis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="jeeweb" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="session" type="462c0819:PsiDirectoryNode" />
+              <item name="mgt" type="462c0819:PsiDirectoryNode" />
+              <item name="scheduler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeeweb-mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeeweb-mybatis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="jeeweb" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeeweb-mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeeweb-mybatis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="jeeweb" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeeweb-mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeeweb-mybatis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="jeeweb" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+              <item name="jcaptcha" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeeweb-mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeeweb-mybatis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="jeeweb" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+              <item name="online" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeeweb-mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeeweb-mybatis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="jeeweb" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+              <item name="sync" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeeweb-mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeeweb-mybatis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="jeeweb" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jeeweb-mybatis" type="b2602c69:ProjectViewProjectNode" />
@@ -350,26 +901,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jeeweb-mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jeeweb-mybatis-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="tags" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jeeweb-mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jeeweb-mybatis-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="tags" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jeeweb-mybatis" type="b2602c69:ProjectViewProjectNode" />
@@ -394,16 +925,6 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="webpage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jeeweb-mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jeeweb-mybatis-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="webpage" type="462c0819:PsiDirectoryNode" />
-              <item name="decorators" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jeeweb-mybatis" type="b2602c69:ProjectViewProjectNode" />
@@ -436,7 +957,7 @@
               <item name="webpage" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
               <item name="sys" type="462c0819:PsiDirectoryNode" />
-              <item name="dict" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jeeweb-mybatis" type="b2602c69:ProjectViewProjectNode" />
@@ -448,16 +969,14 @@
               <item name="webpage" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
               <item name="sys" type="462c0819:PsiDirectoryNode" />
-              <item name="dict" type="462c0819:PsiDirectoryNode" />
-              <item name="group" type="462c0819:PsiDirectoryNode" />
+              <item name="online" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -465,8 +984,8 @@
     <property name="nodejs_interpreter_path" value="D:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Validform-master" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../shiro-example-master" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.27413985" />
@@ -710,12 +1229,27 @@
       <workItem from="1541041308644" duration="3110000" />
       <workItem from="1542345356333" duration="6011000" />
       <workItem from="1542611711700" duration="94331000" />
-      <workItem from="1543298939435" duration="12356000" />
+      <workItem from="1543298939435" duration="53031000" />
+      <workItem from="1543539864007" duration="21926000" />
+      <workItem from="1543801004971" duration="1510000" />
+      <workItem from="1543804147117" duration="9177000" />
+      <workItem from="1543838642189" duration="24753000" />
+      <workItem from="1543979377026" duration="116171000" />
+      <workItem from="1544768702359" duration="6663000" />
+      <workItem from="1545008268701" duration="342000" />
+      <workItem from="1545008671076" duration="45395000" />
+      <workItem from="1545362251843" duration="2015000" />
+      <workItem from="1545382931090" duration="785000" />
+      <workItem from="1545628478345" duration="1154000" />
+      <workItem from="1545631961178" duration="4944000" />
+      <workItem from="1545892268029" duration="11343000" />
+      <workItem from="1545960193806" duration="8184000" />
+      <workItem from="1545982810326" duration="7389000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="873752000" />
+    <option name="totallyTimeSpent" value="1176178000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -727,49 +1261,49 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="83" y="-8" width="1845" height="1096" extended-state="6" />
+    <frame x="82" y="-8" width="1846" height="1096" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3107105" sideWeight="0.5022625" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31979167" sideWeight="0.50476193" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21120448" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16470589" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295964" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35" sideWeight="0.49773756" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42291668" sideWeight="0.4952381" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32291666" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32291666" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24705882" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903588" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25643897" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885155" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16367713" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3107105" sideWeight="0.5022625" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21120448" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -777,22 +1311,22 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26118627" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35" sideWeight="0.49773756" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27242154" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295964" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32291666" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24705882" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903588" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
@@ -805,15 +1339,23 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/security/shiro/web/filter/authc/credential/RetryLimitHashedCredentialsMatcher.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="1231" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="1077" />
+      <option name="time" value="1232" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
-        <watch expression="WebApplicationContext.class.getName()" language="JAVA" />
-        <watch expression="request.getParameter(&quot;url&quot;)" language="JAVA" />
+        <watch expression="request.getRequestURL()" language="JAVA" />
+        <watch expression="JeewebPropertiesUtil.getConfig(&quot;web.view.prefix&quot;)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
@@ -822,408 +1364,410 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.3.RELEASE/spring-core-4.0.3.RELEASE.jar!/org/springframework/core/convert/ConversionService.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/core/interceptor/ReloadConfigInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="414">
+          <caret line="27" column="83" lean-forward="false" selection-start-line="27" selection-start-column="83" selection-end-line="27" selection-end-column="83" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/core/tags/html/manager/HtmlComponentManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/controller/LogController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+        <state relative-caret-position="460">
+          <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/core/tags/grid/DataGridTag.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/core/quartz/utils/TaskUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="167" column="0" lean-forward="false" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
+        <state relative-caret-position="666">
+          <caret line="37" column="12" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/webpage/modules/sys/dict/group/list.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/core/common/controller/BaseCRUDController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="483">
+          <caret line="54" column="30" lean-forward="false" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/core/common/entity/DataEntity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding />
+        <state relative-caret-position="322">
+          <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/core/query/data/QueryRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/core/utils/DateUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="102" column="43" lean-forward="false" selection-start-line="102" selection-start-column="40" selection-end-line="102" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2-sources.jar!/org/apache/commons/lang3/Validate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-138">
-          <caret line="24" column="75" lean-forward="false" selection-start-line="24" selection-start-column="75" selection-end-line="24" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/core/utils/SpringContextHolder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/core/interceptor/EncodingInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
+          <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/core/utils/convert/DateConvertEditor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/core/filter/xss/XssFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="322">
+          <caret line="22" column="68" lean-forward="false" selection-start-line="22" selection-start-column="68" selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/core/query/resolver/PageableMethodArgumentResolver.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/webpage/modules/sys/dict/list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1840">
-          <caret line="203" column="52" lean-forward="true" selection-start-line="203" selection-start-column="52" selection-end-line="203" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/core/common/form/BaseMethodArgumentResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/core/query/resolver/QueryMethodArgumentResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.3.RELEASE/spring-core-4.0.3.RELEASE.jar!/org/springframework/core/NestedRuntimeException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/core/query/exception/QueryException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="70" lean-forward="true" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
-          <folding>
-            <element signature="e#264#265#0" expanded="false" />
-            <element signature="e#281#282#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.0.3.RELEASE/spring-beans-4.0.3.RELEASE.jar!/org/springframework/beans/BeanWrapperImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/core/query/data/Queryable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="60" column="19" lean-forward="false" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+        <state relative-caret-position="460">
+          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3105">
-          <caret line="135" column="114" lean-forward="false" selection-start-line="135" selection-start-column="94" selection-end-line="135" selection-end-column="114" />
+        <state relative-caret-position="1443">
+          <caret line="172" column="0" lean-forward="false" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/upload.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/security/shiro/web/filter/authc/FormAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/shiro.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ehcache/ehcache.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/security/shiro/exception/RepeatAuthenticationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="58" lean-forward="true" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+          <folding>
+            <element signature="e#299#300#0" expanded="false" />
+            <element signature="e#313#314#0" expanded="false" />
+            <element signature="e#391#392#0" expanded="false" />
+            <element signature="e#449#450#0" expanded="false" />
+            <element signature="e#468#469#0" expanded="false" />
+            <element signature="e#542#543#0" expanded="false" />
+            <element signature="e#570#571#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.2/shiro-core-1.2.2.jar!/org/apache/shiro/authc/AccountException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.2/shiro-core-1.2.2.jar!/org/apache/shiro/authc/ExcessiveAttemptsException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.3.RELEASE/spring-context-4.0.3.RELEASE.jar!/org/springframework/cache/support/SimpleValueWrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.3.RELEASE/spring-context-4.0.3.RELEASE.jar!/org/springframework/cache/Cache.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.3.RELEASE/spring-context-4.0.3.RELEASE.jar!/org/springframework/cache/CacheManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-ehcache/1.2.2/shiro-ehcache-1.2.2.jar!/org/apache/shiro/cache/ehcache/EhCache.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="128" column="42" lean-forward="true" selection-start-line="128" selection-start-column="42" selection-end-line="128" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.2/shiro-core-1.2.2.jar!/org/apache/shiro/cache/CacheManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/4.0.3.RELEASE/spring-context-support-4.0.3.RELEASE.jar!/org/springframework/cache/ehcache/EhCacheCacheManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-config-cache.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/core/security/shiro/cache/SpringCacheManagerWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="43" column="24" lean-forward="false" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.2/shiro-core-1.2.2.jar!/org/apache/shiro/cache/Cache.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.2.2/shiro-web-1.2.2.jar!/org/apache/shiro/web/filter/AccessControlFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.2.2/shiro-web-1.2.2.jar!/org/apache/shiro/web/util/WebUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="287" column="47" lean-forward="true" selection-start-line="287" selection-start-column="47" selection-end-line="287" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.2.2/shiro-web-1.2.2.jar!/org/apache/shiro/web/filter/authc/FormAuthenticationFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeeweb-mybatis.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-282">
+          <caret line="362" column="49" lean-forward="true" selection-start-line="362" selection-start-column="49" selection-end-line="362" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jeeweb.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/common/jcaptcha/JCaptchaFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="95" column="64" lean-forward="true" selection-start-line="95" selection-start-column="64" selection-end-line="95" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-config-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="191" column="51" lean-forward="true" selection-start-line="191" selection-start-column="51" selection-end-line="191" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/security/shiro/web/filter/jcaptcha/JCaptchaValidateFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+          <folding>
+            <element signature="e#1542#1543#0" expanded="false" />
+            <element signature="e#1573#1574#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.2/shiro-core-1.2.2.jar!/org/apache/shiro/session/Session.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/core/security/shiro/cache/JedisCacheManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2277">
+          <caret line="25" column="53" lean-forward="true" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/core/security/shiro/cache/SessionCacheManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="66" column="9" lean-forward="true" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/core/security/shiro/session/CacheSessionDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="42" column="31" lean-forward="true" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+          <folding>
+            <element signature="e#969#970#0" expanded="false" />
+            <element signature="e#983#984#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/core/security/shiro/session/SessionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="205" column="35" lean-forward="false" selection-start-line="205" selection-start-column="35" selection-end-line="205" selection-end-column="35" />
+          <folding>
+            <element signature="method#getSessionId#0;class#SessionManager#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/common/jcaptcha/JCaptcha.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/webpage/modules/sys/login/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="44" column="22" lean-forward="true" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="37" column="46" lean-forward="false" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+        <state relative-caret-position="496">
+          <caret line="61" column="28" lean-forward="false" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.base/java/net/URLDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="42" column="46" lean-forward="true" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/core/utils/CookieUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2967">
-          <caret line="135" column="24" lean-forward="false" selection-start-line="135" selection-start-column="17" selection-end-line="135" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="38" column="15" lean-forward="false" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/webpage/modules/sys/index/index-uadmin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="33" column="67" lean-forward="false" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/webpage/decorators/uadmin/left.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/webpage/decorators/uadmin/menu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1541">
-          <caret line="67" column="12" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="67" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/core/query/utils/QueryableConvertUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
-          <folding>
-            <element signature="method#convert#0;class#QueryableConvertUtils#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.3.RELEASE/spring-context-4.0.3.RELEASE.jar!/org/springframework/context/MessageSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/core/utils/MessageUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/webpage/decorators/uadmin/topbar.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="15" column="64" lean-forward="false" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/webpage/decorators/uadmin/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="41" lean-forward="false" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.3.RELEASE/spring-context-4.0.3.RELEASE.jar!/org/springframework/validation/ObjectError.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="14" column="73" lean-forward="true" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/webpage/modules/sys/dict/group/edit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="28" column="57" lean-forward="false" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/entity/Dict.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/entity/DataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/entity/DictGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/entity/Attachment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/entity/UserOrganization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/entity/UserOnline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-931">
-          <caret line="89" column="34" lean-forward="true" selection-start-line="89" selection-start-column="34" selection-end-line="89" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/entity/UserLastOnline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1598">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/entity/RoleMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/entity/UserRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="28" column="15" lean-forward="true" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/entity/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/entity/Organization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="33" column="27" lean-forward="true" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/entity/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/core/model/ValidJson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#328#329#0" expanded="false" />
-            <element signature="e#346#347#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/core/model/PageJson.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/security/shiro/session/mgt/OnlineSession.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/core/model/AjaxJson.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/security/shiro/session/mgt/OnlineSessionFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+        <state relative-caret-position="448">
+          <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.base/java/lang/Class.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/security/shiro/session/mgt/eis/OnlineSessionDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="508" column="13" lean-forward="false" selection-start-line="508" selection-start-column="13" selection-end-line="508" selection-end-column="13" />
+        <state relative-caret-position="-1206">
+          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/core/common/controller/BaseBeanController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/security/shiro/cache/spring/SpringCacheManagerWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="41" column="25" lean-forward="true" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/core/common/controller/BaseCRUDController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="279" column="49" lean-forward="true" selection-start-line="279" selection-start-column="49" selection-end-line="279" selection-end-column="49" />
+        <state relative-caret-position="345">
+          <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
           <folding>
-            <element signature="method#delete#0;class#BaseCRUDController#0" expanded="false" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/security/shiro/web/filter/sync/SyncOnlineSessionFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/security/shiro/web/filter/user/SysUserFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/common/controller/JCaptchaValidateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jeeweb/modules/sys/security/shiro/web/filter/authc/credential/RetryLimitHashedCredentialsMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="53" column="26" lean-forward="true" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

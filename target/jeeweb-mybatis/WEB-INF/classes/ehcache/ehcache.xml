@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ehcache name="jeeweb-mybatis">
 
+	<!--ehcache分为内存和磁盘两级，diskStore定义磁盘的缓存位置
+	java.io.tmpdir默认临时文件路径-->
 	<diskStore path="java.io.tmpdir" />
+
+	<!--系统缓存-->
+	<cache name="sysCache" maxEntriesLocalHeap="2000" eternal="false"
+		   timeToIdleSeconds="3600" timeToLiveSeconds="0" overflowToDisk="false"
+		   statistics="true">
+	</cache>
+
+
 
 	<!-- 登录记录缓存 锁定10分钟 -->
 	<cache name="passwordRetryCache" maxEntriesLocalHeap="2000"
@@ -24,10 +34,7 @@
 		overflowToDisk="false" statistics="true">
 	</cache>
 	
-	<cache name="sysCache" maxEntriesLocalHeap="2000" eternal="false"
-		timeToIdleSeconds="3600" timeToLiveSeconds="0" overflowToDisk="false"
-		statistics="true">
-	</cache>
+
 	
 	<cache name="userCache" maxEntriesLocalHeap="2000" eternal="false"
 		timeToIdleSeconds="3600" timeToLiveSeconds="0" overflowToDisk="false"

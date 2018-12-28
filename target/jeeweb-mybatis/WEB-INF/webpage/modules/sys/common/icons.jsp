@@ -1934,13 +1934,8 @@
 	    		$(this).parent().attr('class',parentClass+" select");
 	    		//获得A中的样式
 	    		$("#icon").val($(this).find('i').attr('class').split(" ")[1]);
-	    		
-	    		
 	    	}); 
 	    });
     </script>
 </body>
-
-  
- 
 </html>

@@ -37,8 +37,8 @@
       <include refid="userOrganizationJoins"/>
        <if test="ew.sqlSegment != '' and ew.sqlSegment != null">  
 		  <where>
-		    ${ew.sqlSegment} 
-		  </where>
+		    ${ew.sqlSegment}
+          </where>
 	   </if> 
   </select>
 

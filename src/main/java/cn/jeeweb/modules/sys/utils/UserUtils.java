@@ -262,7 +262,6 @@ public class UserUtils {
 			if (principal != null) {
 				return principal;
 			}
-			// subject.logout();
 		} catch (UnavailableSecurityManagerException e) {
 
 		} catch (InvalidSessionException e) {
@@ -275,6 +274,7 @@ public class UserUtils {
 		try {
 			Subject subject = SecurityUtils.getSubject();
 			Session session = subject.getSession(false);
+
 			if (session == null) {
 				session = subject.getSession();
 			}

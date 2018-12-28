@@ -42,7 +42,6 @@ public abstract class BaseCRUDController<Entity extends AbstractEntity<ID>, ID e
 	 *
 	 * Sring容器初始化时，设置Controller对应的基础service，ICommonService<Entity>
 	 * 基础service设置好以后，就可以调用17+5个方法了
-	 * @param baseService
 	 */
 	@Autowired
 	public void setCommonService(ICommonService<Entity> commonService) {
@@ -77,8 +76,7 @@ public abstract class BaseCRUDController<Entity extends AbstractEntity<ID>, ID e
 
 	/**
 	 * 在异步获取数据之前
-	 * 
-	 * @param model
+	 *
 	 * @param request
 	 * @param response
 	 */
